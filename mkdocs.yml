@@ -96,7 +96,7 @@ nav:
     - Duels & PvP: gameplay/duels.md
     - Bounties: gameplay/bounties.md
     - Spawners: gameplay/spawners.md
-    - AFK Area: gameplay/afk.md
+    - AFK: gameplay/afk.md
   - Commands:
     - Overview: commands/index.md
     - General & Utility: commands/general.md
