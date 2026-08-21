@@ -19,7 +19,7 @@ No exploiting the game or the server in ways that give you an unfair advantage.
 <div class="sv-grid" markdown>
 
 <div class="sv-card" markdown>
-<span class="sv-card-title">:material-robot-off: No Hacked Clients</span>
+<span class="sv-card-title">:material-robot-off-outline: No Hacked Clients</span>
 <span class="sv-card-desc">Movement mods, inventory mods, health indicators, radar, freecam, and auto-place are all banned. Vanilla client only.</span>
 </div>
 
@@ -62,7 +62,7 @@ No exploiting the game or the server in ways that give you an unfair advantage.
 </div>
 
 <div class="sv-card" markdown>
-<span class="sv-card-title">:material-bullhorn-off: No Advertising</span>
+<span class="sv-card-title">:material-bullhorn-outline: No Advertising</span>
 <span class="sv-card-desc">No advertising or promoting other servers/services.</span>
 </div>
 
