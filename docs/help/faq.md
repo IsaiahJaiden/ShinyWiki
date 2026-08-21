@@ -15,7 +15,7 @@ Sell items with `/sell`, complete bulk orders with `/order`, or trade at the [au
 Run `/rtp` to teleport somewhere random, then claim it once you've picked a spot.
 
 **How do I get back to spawn?**
-`/spawn`. To get back to a specific base you've built, set a home there with `/sethome` and use `/home` afterward.
+`/spawn`. To get back to a specific base you've built, open `/home`, click an empty grey bed to set one there, then click it any time to warp back.
 
 **How do I fight another player fairly?**
 Challenge them with `/duel <player>`, or queue up with `/queue`. See [Duels & PvP](../gameplay/duels.md).

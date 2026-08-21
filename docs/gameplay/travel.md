@@ -16,7 +16,7 @@ description: Every way to get around ShinyVale — spawn, random teleport, warps
 | `/tpa <player>` | Request to teleport to a player |
 | `/tpaccept` | Accept an incoming teleport request |
 | `/tpdeny` | Deny an incoming teleport request |
-| `/sethome` · `/home` | Set and use your personal home |
+| `/home` | Open your homes menu — teleport, set, or delete |
 
 ## Random teleport
 
@@ -44,11 +44,16 @@ Want to visit (or create) a player-made destination instead of an official one? 
 ## Homes
 
 ```
-/sethome
 /home
 ```
 
-Set a personal teleport point anywhere you like (except spawn and the AFK area), and warp back to it whenever.
+Opens your homes menu — everything about your homes is managed from here, not typed commands:
+
+- **Setting a home:** click an empty grey bed to set a home at your current location.
+- **Teleporting:** click an existing home's bed to warp there.
+- **Deleting a home:** right-click the dye icon underneath that home's bed.
+
+Homes can be set anywhere you like, except spawn and the AFK area.
 
 ## Requesting to teleport to another player
 

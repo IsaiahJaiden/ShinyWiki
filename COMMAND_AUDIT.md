@@ -16,9 +16,7 @@ Evidence keys: `PY` = plugin's own `plugin.yml`/`paper-plugin.yml` · `CFG` = ac
 | `/rtp` | `/brtp` `/randomtp` `/wild` `/wildtp` `/betterrtp` | BetterRTP | 3.6.13 | PUBLIC | PY aliases list; `betterrtp.use` default true |
 | `/warp <name>` | none¹ | DonutWarp | 3.0 | PUBLIC | PY, no permission node |
 | `/spawn` | — | EssentialsXSpawn | 2.22.0 | PUBLIC | LP `essentials.spawn`; ESS |
-| `/home`, `/homes` | — | DonutHomes | 3.0 | PUBLIC | PY; LP `home.use`, `homes.default` |
-| `/sethome` | — | DonutHomes | 3.0 | PUBLIC | PY, no permission node |
-| `/delhome`, `/renamehome` | — | EssentialsX | 2.22.0 | PUBLIC | ESS whitelist |
+| `/home`, `/homes` | — | DonutHomes | 3.0 | PUBLIC | PY; LP `home.use`, `homes.default`. **Owner-confirmed in-game (2026-08-21):** all home management happens through this menu — click an empty grey bed to set, an existing bed to teleport, right-click a home's dye icon to delete. `/sethome` is declared in PY and `delhome`/`renamehome` are whitelisted in ESS, but **these are not the workflow players actually use** — corrected from static "command exists" inference. |
 | `/tpa` `/tpahere` `/tpaccept` `/tpacancel` `/tpauto` `/tptoggle` | — | DonutTP | 3.0 | PUBLIC | PY, no permission nodes; LP also grants Essentials equivalents |
 | `/tpdeny` | `/tpno` `/etpno` `/etpdeny` | EssentialsX | 2.22.0 | PUBLIC | PY aliases; ESS whitelist |
 | `/back` | `/return` | EssentialsX | 2.22.0 | PUBLIC | ESS whitelist (`back`, `back.ondeath`) |

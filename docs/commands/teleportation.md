@@ -14,10 +14,7 @@ See the [Teleportation & Travel](../gameplay/travel.md) guide for a full walkthr
 | `/warp <name>` | — | Teleport to a server warp |
 | `/pw` | `/playerwarp`, `/pwarp`, `/axpw` | Browse and visit player warps |
 | `/pw create <name>` | — | Create your own player warp |
-| `/sethome` | — | Set your home |
-| `/home` | `/homes` | Teleport to your home |
-| `/delhome <name>` | — | Delete one of your homes |
-| `/renamehome <old> <new>` | — | Rename one of your homes |
+| `/home` | `/homes` | Open your homes menu — click a grey bed to set/teleport, right-click a home's dye icon to delete it |
 | `/tpa <player>` | — | Request to teleport to a player |
 | `/tpahere <player>` | — | Ask a player to teleport to you |
 | `/tpaccept` | — | Accept a teleport request |

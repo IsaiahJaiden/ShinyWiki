@@ -67,10 +67,10 @@ Spawn has warps to most of the server's other systems:
 ## 7. Set a home so you can get back easily
 
 ```
-/sethome
+/home
 ```
 
-Wherever you end up building, `/home` gets you straight back.
+Opens a menu — click an empty grey bed to set a home at your current spot. Click it again any time to warp back.
 
 ## 8. Check out the calendar
 

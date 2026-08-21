@@ -16,7 +16,7 @@ Every command on this page is one a normal player can actually use right now. St
 |---|---|
 | `/rtp` | Teleport somewhere random — the fastest way to find land |
 | `/claim` | Claim the land you're standing on |
-| `/sethome` · `/home` | Set and return to your home |
+| `/home` | Open your homes menu to set, teleport, or delete |
 | `/shop` | Open the server shop |
 | `/sell` | Sell items from a menu |
 | `/warp <name>` | Travel to a server warp |
@@ -74,10 +74,7 @@ Aliases: `/territory` · `/territories` · `/unterritory`. Full guide: **[Claims
 | `/spawn` | Return to spawn |
 | `/warp <name>` | Travel to a server warp |
 | `/back` | Return to where you were before your last teleport or death |
-| `/home` · `/homes` | Teleport to a home |
-| `/sethome` | Set a home |
-| `/delhome <name>` | Delete a home |
-| `/renamehome <old> <new>` | Rename a home |
+| `/home` · `/homes` | Open your homes menu — click a bed to set/teleport, right-click a home's dye to delete it |
 | `/tpa <player>` | Request to teleport to a player |
 | `/tpahere <player>` | Ask a player to come to you |
 | `/tpaccept` | Accept a request |
