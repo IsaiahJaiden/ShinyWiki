@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Every player command on ShinyVale, organized by category.">
+        <meta name="description" content="Every player command on ShinyVale in one searchable reference.">
       
       
         <meta name="author" content="ShinyVale SMP">
@@ -859,7 +859,7 @@
   <span class="md-ellipsis">
     
   
-    AFK Area
+    AFK
   
 
     
@@ -1665,10 +1665,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#most-useful-commands" class="md-nav__link">
+  <a href="#most-used" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Most useful commands
+        Most used
       
     </span>
   </a>
@@ -1676,10 +1676,109 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#by-category" class="md-nav__link">
+  <a href="#claims" class="md-nav__link">
     <span class="md-ellipsis">
       
-        By category
+        Claims
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#travel-teleportation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Travel &amp; teleportation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#economy-shops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Economy &amp; shops
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#duels-pvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Duels &amp; PvP
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#social" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Social
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#info-lookup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Info &amp; lookup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-toggles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings &amp; toggles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Voting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fun-cosmetic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fun &amp; cosmetic
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menus-other-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus &amp; other systems
       
     </span>
   </a>
@@ -1704,8 +1803,12 @@
 
 
 <h1 id="command-overview">Command Overview<a class="headerlink" href="#command-overview" title="Permanent link">&para;</a></h1>
-<p>Every command here is something a normal player can use right now — nothing staff-only made it onto this list. Pick a category below for the full breakdown, or use the table for a quick lookup.</p>
-<h2 id="most-useful-commands">Most useful commands<a class="headerlink" href="#most-useful-commands" title="Permanent link">&para;</a></h2>
+<p>Every command on this page is one a normal player can actually use right now. Staff-only commands aren't listed.</p>
+<div class="admonition tip">
+<p class="admonition-title">Looking for something specific?</p>
+<p>Use the search box at the top of the page — searching <code>claim</code>, <code>home</code>, <code>sell</code>, or <code>duel</code> will jump you straight to the right section.</p>
+</div>
+<h2 id="most-used">Most used<a class="headerlink" href="#most-used" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1715,16 +1818,16 @@
 </thead>
 <tbody>
 <tr>
-<td><code>/spawn</code></td>
-<td>Return to spawn</td>
-</tr>
-<tr>
 <td><code>/rtp</code></td>
-<td>Teleport somewhere random</td>
+<td>Teleport somewhere random — the fastest way to find land</td>
 </tr>
 <tr>
 <td><code>/claim</code></td>
-<td>Claim the land around you</td>
+<td>Claim the land you're standing on</td>
+</tr>
+<tr>
+<td><code>/sethome</code> · <code>/home</code></td>
+<td>Set and return to your home</td>
 </tr>
 <tr>
 <td><code>/shop</code></td>
@@ -1732,31 +1835,31 @@
 </tr>
 <tr>
 <td><code>/sell</code></td>
-<td>Sell what you're holding</td>
+<td>Sell items from a menu</td>
 </tr>
 <tr>
 <td><code>/warp &lt;name&gt;</code></td>
-<td>Teleport to a server warp</td>
+<td>Travel to a server warp</td>
+</tr>
+<tr>
+<td><code>/spawn</code></td>
+<td>Return to spawn</td>
 </tr>
 <tr>
 <td><code>/tpa &lt;player&gt;</code></td>
-<td>Request to teleport to a player</td>
+<td>Ask to teleport to a player</td>
 </tr>
 <tr>
-<td><code>/duel &lt;player&gt;</code></td>
-<td>Challenge someone to a duel</td>
-</tr>
-<tr>
-<td><code>/bounty &lt;player&gt; &lt;amount&gt;</code></td>
-<td>Put a bounty on someone</td>
-</tr>
-<tr>
-<td><code>/vote</code></td>
-<td>Vote for the server</td>
+<td><code>/settings</code></td>
+<td>Your personal preferences menu</td>
 </tr>
 <tr>
 <td><code>/calendar</code></td>
-<td>Claim today's calendar reward</td>
+<td>Claim today's free reward</td>
+</tr>
+<tr>
+<td><code>/vote</code></td>
+<td>Vote for the server for rewards</td>
 </tr>
 <tr>
 <td><code>/rules</code></td>
@@ -1764,37 +1867,652 @@
 </tr>
 </tbody>
 </table>
-<h2 id="by-category">By category<a class="headerlink" href="#by-category" title="Permanent link">&para;</a></h2>
-<div class="sv-grid">
-<div class="sv-card">
-<p><span class="sv-card-title"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m21.71 20.29-1.42 1.42a1 1 0 0 1-1.41 0L7 9.85A3.8 3.8 0 0 1 6 10a4 4 0 0 1-3.78-5.3l2.54 2.54.53-.53 1.42-1.42.53-.53L4.7 2.22A4 4 0 0 1 10 6a3.8 3.8 0 0 1-.15 1l11.86 11.88a1 1 0 0 1 0 1.41M2.29 18.88a1 1 0 0 0 0 1.41l1.42 1.42a1 1 0 0 0 1.41 0l5.47-5.46-2.83-2.83M20 2l-4 2v2l-2.17 2.17 2 2L18 8h2l2-4Z"/></svg></span> <a href="general/">General &amp; Utility</a></span>
-<span class="sv-card-desc">Homes, help, settings, spawners, and everyday utility commands.</span></p>
-</div>
-<div class="sv-card">
-<p><span class="sv-card-title"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 15a3 3 0 0 1 3 3 3 3 0 0 1-3 3 2.99 2.99 0 0 1-2.83-2H14v-2h1.17c.41-1.17 1.52-2 2.83-2m0 2a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1m0-9a1.43 1.43 0 0 0 1.43-1.43 1.43 1.43 0 1 0-2.86 0A1.43 1.43 0 0 0 18 8m0-5.43a4 4 0 0 1 4 4C22 9.56 18 14 18 14s-4-4.44-4-7.43a4 4 0 0 1 4-4M8.83 17H10v2H8.83A2.99 2.99 0 0 1 6 21a3 3 0 0 1-3-3c0-1.31.83-2.42 2-2.83V14h2v1.17c.85.3 1.53.98 1.83 1.83M6 17a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1M6 3a3 3 0 0 1 3 3c0 1.31-.83 2.42-2 2.83V10H5V8.83A2.99 2.99 0 0 1 3 6a3 3 0 0 1 3-3m0 2a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1m5 14v-2h2v2zm-4-6H5v-2h2z"/></svg></span> <a href="teleportation/">Teleportation</a></span>
-<span class="sv-card-desc">Spawn, RTP, warps, player warps, and player-to-player teleport requests.</span></p>
-</div>
-<div class="sv-card">
-<p><span class="sv-card-title"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 13h2v3h3v-5h2l-6-5-6 5h2v5h3zm1-12 9 4v6c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5z"/></svg></span> <a href="claims/">Claims</a></span>
-<span class="sv-card-desc">Every claim management command in one place.</span></p>
-</div>
-<div class="sv-card">
-<p><span class="sv-card-title"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v12H3zm9 3a3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-3-3 3 3 0 0 1 3-3M7 8a2 2 0 0 1-2 2v4a2 2 0 0 1 2 2h10a2 2 0 0 1 2-2v-4a2 2 0 0 1-2-2z"/></svg></span> <a href="economy/">Economy &amp; Shops</a></span>
-<span class="sv-card-desc">Buying, selling, paying players, and the auction house.</span></p>
-</div>
-<div class="sv-card">
-<p><span class="sv-card-title"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg></span> <a href="duels-bounties/">Duels &amp; Bounties</a></span>
-<span class="sv-card-desc">Challenge players, manage kits, and place bounties.</span></p>
-</div>
-<div class="sv-card">
-<p><span class="sv-card-title"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23 10a2 2 0 0 0-2-2h-6.32l.96-4.57c.02-.1.03-.21.03-.32 0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.58C7.22 7.95 7 8.45 7 9v10a2 2 0 0 0 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73zM1 21h4V9H1z"/></svg></span> <a href="voting/">Voting</a></span>
-<span class="sv-card-desc">Vote for the server and check your streaks and totals.</span></p>
-</div>
-<div class="sv-card">
-<p><span class="sv-card-title"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg></span> <a href="social/">Social</a></span>
-<span class="sv-card-desc">Messaging, teams, and cosmetic/social commands.</span></p>
-</div>
-</div>
+<hr />
+<h2 id="claims">Claims<a class="headerlink" href="#claims" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/claim [radius]</code></td>
+<td>Claim land around you</td>
+</tr>
+<tr>
+<td><code>/claim settings</code></td>
+<td>Open the settings menu for a claim</td>
+</tr>
+<tr>
+<td><code>/claim merge &lt;claim-1&gt; &lt;claim-2&gt;</code></td>
+<td>Merge two of your claims into one</td>
+</tr>
+<tr>
+<td><code>/claim addchunk &lt;name&gt;</code></td>
+<td>Add a chunk to an existing claim</td>
+</tr>
+<tr>
+<td><code>/claim delchunk &lt;name&gt; &lt;chunk&gt;</code></td>
+<td>Remove a chunk from a claim</td>
+</tr>
+<tr>
+<td><code>/claim add &lt;player&gt;</code></td>
+<td>Trust a player on your claim</td>
+</tr>
+<tr>
+<td><code>/claim remove &lt;player&gt;</code></td>
+<td>Remove a trusted player</td>
+</tr>
+<tr>
+<td><code>/claim members [name]</code></td>
+<td>List trusted members</td>
+</tr>
+<tr>
+<td><code>/claim ban &lt;player&gt;</code></td>
+<td>Ban a player from your claim</td>
+</tr>
+<tr>
+<td><code>/claim unban &lt;player&gt;</code></td>
+<td>Unban a player</td>
+</tr>
+<tr>
+<td><code>/claim bans [name]</code></td>
+<td>List banned players</td>
+</tr>
+<tr>
+<td><code>/claim kick &lt;player&gt;</code></td>
+<td>Remove a player from your claim now</td>
+</tr>
+<tr>
+<td><code>/claim setname &lt;old&gt; &lt;new&gt;</code></td>
+<td>Rename a claim</td>
+</tr>
+<tr>
+<td><code>/claim setdesc &lt;name&gt; &lt;text&gt;</code></td>
+<td>Set a claim description</td>
+</tr>
+<tr>
+<td><code>/claim setspawn</code></td>
+<td>Set where <code>/claim tp</code> lands</td>
+</tr>
+<tr>
+<td><code>/claim tp &lt;name&gt;</code></td>
+<td>Teleport to one of your claims</td>
+</tr>
+<tr>
+<td><code>/claim list</code></td>
+<td>List all your claims</td>
+</tr>
+<tr>
+<td><code>/claim map</code> · <code>/claim automap</code></td>
+<td>Show a map of nearby claims</td>
+</tr>
+<tr>
+<td><code>/claim see [player]</code></td>
+<td>Check whose claim you're standing in</td>
+</tr>
+<tr>
+<td><code>/claim fly</code> · <code>/claim autofly</code></td>
+<td>Toggle flight inside your own claim</td>
+</tr>
+<tr>
+<td><code>/claim chat &lt;name&gt;</code></td>
+<td>Talk in claim-local chat</td>
+</tr>
+<tr>
+<td><code>/claim main &lt;name&gt;</code></td>
+<td>Set your main claim</td>
+</tr>
+<tr>
+<td><code>/claim owner &lt;name&gt; &lt;player&gt;</code></td>
+<td>Transfer ownership</td>
+</tr>
+<tr>
+<td><code>/claim sell &lt;name&gt; &lt;price&gt;</code></td>
+<td>List a claim for sale</td>
+</tr>
+<tr>
+<td><code>/claim buy</code></td>
+<td>Buy a listed claim</td>
+</tr>
+<tr>
+<td><code>/claim cancel &lt;name&gt;</code></td>
+<td>Cancel a claim sale</td>
+</tr>
+<tr>
+<td><code>/claims</code></td>
+<td>Browse the claims menu</td>
+</tr>
+<tr>
+<td><code>/unclaim [name]</code></td>
+<td>Remove a claim</td>
+</tr>
+</tbody>
+</table>
+<p>Aliases: <code>/territory</code> · <code>/territories</code> · <code>/unterritory</code>. Full guide: <strong><a href="../gameplay/claims/">Claims</a></strong></p>
+<hr />
+<h2 id="travel-teleportation">Travel &amp; teleportation<a class="headerlink" href="#travel-teleportation" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/rtp</code></td>
+<td>Random teleport (aliases <code>/wild</code>, <code>/randomtp</code>, <code>/brtp</code>, <code>/wildtp</code>)</td>
+</tr>
+<tr>
+<td><code>/spawn</code></td>
+<td>Return to spawn</td>
+</tr>
+<tr>
+<td><code>/warp &lt;name&gt;</code></td>
+<td>Travel to a server warp</td>
+</tr>
+<tr>
+<td><code>/back</code></td>
+<td>Return to where you were before your last teleport or death</td>
+</tr>
+<tr>
+<td><code>/home</code> · <code>/homes</code></td>
+<td>Teleport to a home</td>
+</tr>
+<tr>
+<td><code>/sethome</code></td>
+<td>Set a home</td>
+</tr>
+<tr>
+<td><code>/delhome &lt;name&gt;</code></td>
+<td>Delete a home</td>
+</tr>
+<tr>
+<td><code>/renamehome &lt;old&gt; &lt;new&gt;</code></td>
+<td>Rename a home</td>
+</tr>
+<tr>
+<td><code>/tpa &lt;player&gt;</code></td>
+<td>Request to teleport to a player</td>
+</tr>
+<tr>
+<td><code>/tpahere &lt;player&gt;</code></td>
+<td>Ask a player to come to you</td>
+</tr>
+<tr>
+<td><code>/tpaccept</code></td>
+<td>Accept a request</td>
+</tr>
+<tr>
+<td><code>/tpdeny</code></td>
+<td>Deny a request</td>
+</tr>
+<tr>
+<td><code>/tpacancel</code></td>
+<td>Cancel a request you sent</td>
+</tr>
+<tr>
+<td><code>/tpauto</code></td>
+<td>Auto-accept incoming requests</td>
+</tr>
+<tr>
+<td><code>/tptoggle</code></td>
+<td>Block/allow incoming requests</td>
+</tr>
+<tr>
+<td><code>/pw</code></td>
+<td>Browse player warps</td>
+</tr>
+<tr>
+<td><code>/pw create &lt;name&gt;</code></td>
+<td>Create your own player warp</td>
+</tr>
+</tbody>
+</table>
+<p>Full guide: <strong><a href="../gameplay/travel/">Teleportation &amp; Travel</a></strong></p>
+<hr />
+<h2 id="economy-shops">Economy &amp; shops<a class="headerlink" href="#economy-shops" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/shop</code></td>
+<td>Server shop</td>
+</tr>
+<tr>
+<td><code>/sell</code></td>
+<td>Sell menu</td>
+</tr>
+<tr>
+<td><code>/worth</code></td>
+<td>Check an item's value</td>
+</tr>
+<tr>
+<td><code>/sellhistory</code></td>
+<td>Review what you've sold</td>
+</tr>
+<tr>
+<td><code>/toggleworth</code></td>
+<td>Toggle the worth display</td>
+</tr>
+<tr>
+<td><code>/order</code></td>
+<td>Bulk sell-order board</td>
+</tr>
+<tr>
+<td><code>/bal</code> · <code>/balance</code></td>
+<td>Check your balance</td>
+</tr>
+<tr>
+<td><code>/baltop</code></td>
+<td>Richest players</td>
+</tr>
+<tr>
+<td><code>/pay &lt;player&gt; &lt;amount&gt;</code></td>
+<td>Pay a player</td>
+</tr>
+<tr>
+<td><code>/paytoggle</code></td>
+<td>Toggle receiving payments</td>
+</tr>
+<tr>
+<td><code>/ah</code></td>
+<td>Auction house</td>
+</tr>
+<tr>
+<td><code>/ah sell &lt;price&gt;</code></td>
+<td>List the item in your hand</td>
+</tr>
+<tr>
+<td><code>/convert</code></td>
+<td>Currency/shard conversion menu</td>
+</tr>
+</tbody>
+</table>
+<p>Full guides: <strong><a href="../gameplay/economy/">Economy &amp; Shops</a></strong> · <strong><a href="../gameplay/auctions/">Auction House</a></strong></p>
+<hr />
+<h2 id="duels-pvp">Duels &amp; PvP<a class="headerlink" href="#duels-pvp" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/duel &lt;player&gt;</code></td>
+<td>Challenge a player</td>
+</tr>
+<tr>
+<td><code>/queue</code></td>
+<td>Join the matchmaking queue</td>
+</tr>
+<tr>
+<td><code>/kit</code></td>
+<td>Open your duel kits</td>
+</tr>
+<tr>
+<td><code>/kit edit &lt;name&gt;</code></td>
+<td>Customize a kit</td>
+</tr>
+<tr>
+<td><code>/kit reset &lt;name&gt;</code></td>
+<td>Reset a kit</td>
+</tr>
+<tr>
+<td><code>/party</code></td>
+<td>Manage a duel party</td>
+</tr>
+<tr>
+<td><code>/spectate</code></td>
+<td>Watch an ongoing match</td>
+</tr>
+<tr>
+<td><code>/duel stats</code></td>
+<td>Your rating and match history</td>
+</tr>
+<tr>
+<td><code>/bounty &lt;player&gt; &lt;amount&gt;</code></td>
+<td>Place or add to a bounty</td>
+</tr>
+<tr>
+<td><code>/bounty &lt;player&gt;</code></td>
+<td>Check someone's bounty</td>
+</tr>
+<tr>
+<td><code>/bountytoggle</code></td>
+<td>Toggle bounty notifications</td>
+</tr>
+</tbody>
+</table>
+<p>Full guides: <strong><a href="../gameplay/duels/">Duels &amp; PvP</a></strong> · <strong><a href="../gameplay/bounties/">Bounties</a></strong></p>
+<hr />
+<h2 id="social">Social<a class="headerlink" href="#social" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/msg &lt;player&gt; &lt;msg&gt;</code></td>
+<td>Private message (<code>/w</code>, <code>/tell</code>, <code>/pm</code>)</td>
+</tr>
+<tr>
+<td><code>/r &lt;msg&gt;</code></td>
+<td>Reply to the last message</td>
+</tr>
+<tr>
+<td><code>/mail read</code> · <code>/mail send &lt;player&gt; &lt;msg&gt;</code></td>
+<td>Offline mail</td>
+</tr>
+<tr>
+<td><code>/me &lt;action&gt;</code></td>
+<td>Action message in chat</td>
+</tr>
+<tr>
+<td><code>/nick &lt;name&gt;</code></td>
+<td>Set a nickname</td>
+</tr>
+<tr>
+<td><code>/ignore &lt;player&gt;</code></td>
+<td>Ignore or un-ignore someone</td>
+</tr>
+<tr>
+<td><code>/helpop &lt;msg&gt;</code></td>
+<td>Message online staff</td>
+</tr>
+<tr>
+<td><code>/afk</code></td>
+<td>Mark yourself away from keyboard</td>
+</tr>
+<tr>
+<td><code>/teams</code> · <code>/team</code></td>
+<td>Teams menu</td>
+</tr>
+<tr>
+<td><code>/teamtoggle</code></td>
+<td>Toggle a team setting</td>
+</tr>
+<tr>
+<td><code>/discord</code></td>
+<td>Get the Discord invite</td>
+</tr>
+</tbody>
+</table>
+<p>Full guide: <strong><a href="social/">Social Commands</a></strong></p>
+<hr />
+<h2 id="info-lookup">Info &amp; lookup<a class="headerlink" href="#info-lookup" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/list</code></td>
+<td>Who's online</td>
+</tr>
+<tr>
+<td><code>/seen &lt;player&gt;</code></td>
+<td>When a player was last online</td>
+</tr>
+<tr>
+<td><code>/realname &lt;nick&gt;</code></td>
+<td>Real username behind a nickname</td>
+</tr>
+<tr>
+<td><code>/near</code></td>
+<td>Players near you</td>
+</tr>
+<tr>
+<td><code>/getpos</code></td>
+<td>Your exact coordinates</td>
+</tr>
+<tr>
+<td><code>/depth</code></td>
+<td>Depth relative to sea level</td>
+</tr>
+<tr>
+<td><code>/compass</code></td>
+<td>Direction you're facing</td>
+</tr>
+<tr>
+<td><code>/time</code></td>
+<td>World time</td>
+</tr>
+<tr>
+<td><code>/seed</code></td>
+<td>The world seed</td>
+</tr>
+<tr>
+<td><code>/itemdb</code></td>
+<td>ID/name of the item you're holding</td>
+</tr>
+<tr>
+<td><code>/ping</code></td>
+<td>Your connection latency</td>
+</tr>
+<tr>
+<td><code>/stats</code></td>
+<td>Your player stats</td>
+</tr>
+<tr>
+<td><code>/leaderboard</code></td>
+<td>Server leaderboards</td>
+</tr>
+<tr>
+<td><code>/motd</code></td>
+<td>Message of the day</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="settings-toggles">Settings &amp; toggles<a class="headerlink" href="#settings-toggles" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/settings</code></td>
+<td>Your personal preferences menu — chat, alerts, particles, requests, visibility, and more</td>
+</tr>
+<tr>
+<td><code>/nightvision</code> · <code>/nv</code></td>
+<td>Toggle night vision</td>
+</tr>
+<tr>
+<td><code>/phantom</code></td>
+<td>Toggle phantom spawning for yourself</td>
+</tr>
+<tr>
+<td><code>/togglespawnmessages</code></td>
+<td>Turn spawn messages on/off</td>
+</tr>
+<tr>
+<td><code>/fastercrystals &lt;on\|off\|toggle&gt;</code></td>
+<td>Faster end-crystal placement</td>
+</tr>
+<tr>
+<td><code>/tab scoreboard</code></td>
+<td>Toggle your sidebar scoreboard</td>
+</tr>
+<tr>
+<td><code>/tptoggle</code></td>
+<td>Block/allow teleport requests</td>
+</tr>
+<tr>
+<td><code>/paytoggle</code></td>
+<td>Block/allow incoming payments</td>
+</tr>
+<tr>
+<td><code>/bountytoggle</code></td>
+<td>Toggle bounty notifications</td>
+</tr>
+<tr>
+<td><code>/toggleworth</code></td>
+<td>Toggle the worth display</td>
+</tr>
+<tr>
+<td><code>/teamtoggle</code></td>
+<td>Toggle a team setting</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="voting">Voting<a class="headerlink" href="#voting" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/vote</code></td>
+<td>Vote site list and links</td>
+</tr>
+<tr>
+<td><code>/votetotal</code></td>
+<td>Your total votes</td>
+</tr>
+<tr>
+<td><code>/votestreak</code></td>
+<td>Your voting streaks</td>
+</tr>
+<tr>
+<td><code>/votenext</code></td>
+<td>When you can vote again</td>
+</tr>
+<tr>
+<td><code>/votelast</code></td>
+<td>When you last voted</td>
+</tr>
+<tr>
+<td><code>/votetop</code></td>
+<td>Top voters</td>
+</tr>
+<tr>
+<td><code>/votebest</code></td>
+<td>Your best totals</td>
+</tr>
+<tr>
+<td><code>/votetoday</code></td>
+<td>Who's voted today</td>
+</tr>
+<tr>
+<td><code>/votehelp</code></td>
+<td>Voting command list</td>
+</tr>
+</tbody>
+</table>
+<p>Full guide: <strong><a href="../features/voting/">Voting Rewards</a></strong></p>
+<hr />
+<h2 id="fun-cosmetic">Fun &amp; cosmetic<a class="headerlink" href="#fun-cosmetic" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/sit</code></td>
+<td>Sit down</td>
+</tr>
+<tr>
+<td><code>/lay</code></td>
+<td>Lay down</td>
+</tr>
+<tr>
+<td><code>/layback</code></td>
+<td>Lay on your back</td>
+</tr>
+<tr>
+<td><code>/bellyflop</code></td>
+<td>Bellyflop</td>
+</tr>
+<tr>
+<td><code>/spin</code></td>
+<td>Spin</td>
+</tr>
+<tr>
+<td><code>/crawl</code></td>
+<td>Crawl</td>
+</tr>
+<tr>
+<td><code>/skin</code></td>
+<td>Change or restore your skin</td>
+</tr>
+<tr>
+<td><code>/suicide</code></td>
+<td>Kill your own character</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="menus-other-systems">Menus &amp; other systems<a class="headerlink" href="#menus-other-systems" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/calendar</code></td>
+<td>Daily reward calendar</td>
+</tr>
+<tr>
+<td><code>/guide</code></td>
+<td>Help menu</td>
+</tr>
+<tr>
+<td><code>/billford</code></td>
+<td>Billford's rotating daily trades</td>
+</tr>
+<tr>
+<td><code>/media</code></td>
+<td>Media/creator rank info</td>
+</tr>
+<tr>
+<td><code>/enchanter</code> · <code>/ce</code></td>
+<td>Enchanter menu</td>
+</tr>
+<tr>
+<td><code>/tinkerer</code> · <code>/tinker</code></td>
+<td>Tinkerer menu</td>
+</tr>
+<tr>
+<td><code>/gkit</code></td>
+<td>Browse gkits</td>
+</tr>
+<tr>
+<td><code>/ss prices</code></td>
+<td>Spawner drop sell prices</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1835,7 +2553,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../gameplay/afk/" class="md-footer__link md-footer__link--prev" aria-label="Previous: AFK Area">
+          <a href="../gameplay/afk/" class="md-footer__link md-footer__link--prev" aria-label="Previous: AFK">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1845,7 +2563,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                AFK Area
+                AFK
               </div>
             </div>
           </a>
