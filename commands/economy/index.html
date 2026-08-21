@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Every money, shop, and trading command on ShinyVale.">
+        <meta name="description" content="Every money, shop, trading, and auction command on ShinyVale.">
       
       
         <meta name="author" content="ShinyVale SMP">
@@ -1066,6 +1066,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Economy & Shops
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1082,6 +1100,82 @@
   
 
       </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#money" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Money
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buying-selling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buying &amp; selling
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auction-house" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auction house
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-shops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Player shops
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1668,6 +1762,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#money" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Money
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#buying-selling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Buying &amp; selling
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#auction-house" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Auction house
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#player-shops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Player shops
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1684,7 +1841,40 @@
 
 
 <h1 id="economy-shop-commands">Economy &amp; Shop Commands<a class="headerlink" href="#economy-shop-commands" title="Permanent link">&para;</a></h1>
-<p>See the <a href="../../gameplay/economy/">Economy &amp; Shops</a> and <a href="../../gameplay/auctions/">Auction House</a> guides for a full walkthrough.</p>
+<p>See the <a href="../../gameplay/economy/">Economy &amp; Shops</a> and <a href="../../gameplay/auctions/">Auction House</a> guides for walkthroughs.</p>
+<h2 id="money">Money<a class="headerlink" href="#money" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Aliases</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/bal</code> · <code>/balance</code></td>
+<td><code>/enbal</code>, <code>/money</code></td>
+<td>Check your balance</td>
+</tr>
+<tr>
+<td><code>/baltop</code></td>
+<td><code>/enbaltop</code></td>
+<td>View the richest players</td>
+</tr>
+<tr>
+<td><code>/pay &lt;player&gt; &lt;amount&gt;</code></td>
+<td><code>/enpay</code></td>
+<td>Pay another player</td>
+</tr>
+<tr>
+<td><code>/paytoggle</code></td>
+<td><code>/enpaytoggle</code></td>
+<td>Toggle whether you can receive payments</td>
+</tr>
+</tbody>
+</table>
+<h2 id="buying-selling">Buying &amp; selling<a class="headerlink" href="#buying-selling" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1710,25 +1900,37 @@
 <td>Check what an item is worth</td>
 </tr>
 <tr>
+<td><code>/sellhistory</code></td>
+<td>—</td>
+<td>Review what you've sold</td>
+</tr>
+<tr>
+<td><code>/toggleworth</code></td>
+<td>—</td>
+<td>Toggle the worth display</td>
+</tr>
+<tr>
 <td><code>/order</code></td>
 <td><code>/orders</code>, <code>/dorder</code></td>
 <td>Open the bulk sell-order board</td>
 </tr>
 <tr>
-<td><code>/pay &lt;player&gt; &lt;amount&gt;</code></td>
-<td><code>/enpay</code></td>
-<td>Pay another player</td>
+<td><code>/convert</code></td>
+<td>—</td>
+<td>Currency/shard conversion menu</td>
 </tr>
+</tbody>
+</table>
+<h2 id="auction-house">Auction house<a class="headerlink" href="#auction-house" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
 <tr>
-<td><code>/paytoggle</code></td>
-<td><code>/enpaytoggle</code></td>
-<td>Toggle whether you can receive payments</td>
+<th>Command</th>
+<th>Aliases</th>
+<th>Description</th>
 </tr>
-<tr>
-<td><code>/baltop</code></td>
-<td><code>/enbaltop</code></td>
-<td>View the richest players</td>
-</tr>
+</thead>
+<tbody>
 <tr>
 <td><code>/ah</code></td>
 <td><code>/auction</code>, <code>/auctions</code>, <code>/ca</code></td>
@@ -1741,10 +1943,81 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition tip">
-<p class="admonition-title">Player shops need no command</p>
-<p>Setting up your own shop is done by right/left-clicking a chest, not a slash command — see <a href="../../gameplay/economy/#player-owned-shops">Player-owned shops</a>.</p>
+<h2 id="player-shops">Player shops<a class="headerlink" href="#player-shops" title="Permanent link">&para;</a></h2>
+<p>Your own chest shops are created by <strong>clicking a chest</strong>, not by typing a command — see <a href="../../gameplay/economy/#player-owned-shops">Player-owned shops</a>. Once a shop exists, these commands let you manage it. Stand and look at your shop when running them.</p>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/qs find &lt;item&gt;</code></td>
+<td>Find nearby shops selling an item</td>
+</tr>
+<tr>
+<td><code>/qs price &lt;price&gt;</code></td>
+<td>Change the price of the shop you're looking at</td>
+</tr>
+<tr>
+<td><code>/qs item</code></td>
+<td>Change what item the shop trades</td>
+</tr>
+<tr>
+<td><code>/qs amount &lt;amount&gt;</code></td>
+<td>Change how many items per transaction</td>
+</tr>
+<tr>
+<td><code>/qs name &lt;name&gt;</code></td>
+<td>Give your shop a name</td>
+</tr>
+<tr>
+<td><code>/qs staff add &lt;player&gt;</code></td>
+<td>Let another player manage your shop</td>
+</tr>
+<tr>
+<td><code>/qs staff del &lt;player&gt;</code></td>
+<td>Remove a shop staff member</td>
+</tr>
+<tr>
+<td><code>/qs staff list</code></td>
+<td>List your shop's staff</td>
+</tr>
+<tr>
+<td><code>/qs currency &lt;currency&gt;</code></td>
+<td>Set which currency the shop uses</td>
+</tr>
+<tr>
+<td><code>/qs about</code></td>
+<td>QuickShop version info</td>
+</tr>
+</tbody>
+</table>
+<p>The base command <code>/qs</code> also answers to <code>/quickshop</code>.</p>
+<div class="admonition info">
+<p class="admonition-title">Making a shop with a command</p>
+<p>QuickShop also has a <code>/qs create &lt;price&gt;</code> command form, but on ShinyVale it currently requires a permission normal players don't have — so <strong>use the chest-click method instead</strong>, which works for everyone. (Staff: this is the <code>quickshop.create.cmd</code> node if you ever want to open it up.)</p>
 </div>
+<h2 id="trading">Trading<a class="headerlink" href="#trading" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Aliases</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/trade &lt;player&gt;</code></td>
+<td><code>/axtrade</code></td>
+<td>Send a direct trade request to another player</td>
+</tr>
+</tbody>
+</table>
+<p>Trades use a confirmation screen on both sides — nothing changes hands until you both confirm. Requests expire after a minute.</p>
 
 
 
