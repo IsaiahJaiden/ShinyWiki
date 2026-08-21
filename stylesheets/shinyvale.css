@@ -1,0 +1,221 @@
+/* ==========================================================================
+   ShinyVale Wiki — custom Material for MkDocs theme
+   Palette derived from the actual ShinyVale server logo (icy blue / white).
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+/* ---------- Light scheme: "shinyvale-light" ---------- */
+[data-md-color-scheme="shinyvale-light"] {
+  --md-primary-fg-color:        #0E7FBF;
+  --md-primary-fg-color--light: #37BFF9;
+  --md-primary-fg-color--dark:  #0B5D8C;
+  --md-primary-bg-color:        #FFFFFF;
+  --md-accent-fg-color:         #17A9E8;
+
+  --md-default-bg-color:        #FBFDFF;
+  --md-default-fg-color:        #16222E;
+  --md-default-fg-color--light: #47586A;
+  --md-default-fg-color--lighter: #7C8CA0;
+
+  --md-typeset-a-color:         #0E7FBF;
+
+  --shinyvale-surface:          #FFFFFF;
+  --shinyvale-surface-2:        #EEF6FC;
+  --shinyvale-border:           #D6E6F2;
+  --shinyvale-shadow:           0 1px 2px rgba(14,50,80,0.06), 0 8px 24px -12px rgba(14,50,80,0.12);
+}
+
+/* ---------- Dark scheme: "shinyvale-dark" ---------- */
+[data-md-color-scheme="shinyvale-dark"] {
+  --md-primary-fg-color:        #0E1B26;
+  --md-primary-fg-color--light: #17293A;
+  --md-primary-fg-color--dark:  #0A141C;
+  --md-primary-bg-color:        #E9F6FF;
+  --md-accent-fg-color:         #56C6FF;
+
+  --md-default-bg-color:        #0B1017;
+  --md-default-fg-color:        #E7F1FA;
+  --md-default-fg-color--light: #A9BAC9;
+  --md-default-fg-color--lighter: #718396;
+
+  --md-typeset-a-color:         #56C6FF;
+
+  --md-code-bg-color:           #121A24;
+  --md-code-fg-color:           #DCE7F0;
+
+  --shinyvale-surface:          #121A24;
+  --shinyvale-surface-2:        #17222E;
+  --shinyvale-border:           #23303F;
+  --shinyvale-shadow:           0 1px 2px rgba(0,0,0,0.3), 0 12px 28px -14px rgba(0,0,0,0.55);
+}
+
+/* ---------- Typography ---------- */
+body, .md-typeset {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.md-typeset code, .md-typeset pre, .md-typeset kbd {
+  font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+.md-header__title, .md-nav__title {
+  font-weight: 700;
+}
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.md-typeset h2 {
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+/* ---------- Header / tabs: subtle icy gradient instead of flat fill ---------- */
+[data-md-color-scheme="shinyvale-light"] .md-header {
+  background: linear-gradient(135deg, #0E7FBF 0%, #1596D6 60%, #17A9E8 100%);
+}
+[data-md-color-scheme="shinyvale-light"] .md-tabs {
+  background: linear-gradient(90deg, #0B5D8C 0%, #0E7FBF 100%);
+}
+[data-md-color-scheme="shinyvale-dark"] .md-header {
+  background: #0B1017;
+  border-bottom: 1px solid var(--shinyvale-border);
+}
+[data-md-color-scheme="shinyvale-dark"] .md-tabs {
+  background: #0E1620;
+  border-bottom: 1px solid var(--shinyvale-border);
+}
+
+/* ---------- Inline command code — make /commands pop ---------- */
+.md-typeset code {
+  border-radius: 4px;
+  font-size: 0.85em;
+  padding: 0.1em 0.45em;
+}
+[data-md-color-scheme="shinyvale-light"] .md-typeset code {
+  background-color: var(--shinyvale-surface-2);
+  color: #0B5D8C;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-typeset code {
+  background-color: #16222E;
+  color: #7FD4FF;
+}
+
+/* ---------- Tables ---------- */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--shinyvale-border);
+  box-shadow: none;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--shinyvale-surface-2);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset table:not([class]) td code,
+.md-typeset table:not([class]) th code {
+  white-space: nowrap;
+}
+
+/* ---------- Homepage hero ---------- */
+.sv-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.9rem;
+  padding: 2.6rem 1rem 2.2rem;
+  margin: -0.2rem -0.8rem 2.2rem;
+  border-radius: 16px;
+  background: linear-gradient(160deg, rgba(14,127,191,0.10), rgba(23,169,232,0.03));
+  border: 1px solid var(--shinyvale-border);
+}
+.sv-hero img.sv-hero-logo {
+  max-width: 340px;
+  width: 70%;
+  height: auto;
+  filter: drop-shadow(0 6px 18px rgba(14,127,191,0.25));
+}
+.sv-hero p.sv-tagline {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+  max-width: 46rem;
+  margin: 0;
+}
+.sv-hero .sv-hero-actions {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.4rem;
+}
+.sv-hero .sv-hero-actions .md-button {
+  border-radius: 8px;
+}
+
+/* ---------- Nav card grid ---------- */
+.sv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.9rem;
+  margin: 1.6rem 0 2rem;
+}
+.sv-card {
+  display: block;
+  padding: 1.1rem 1.25rem;
+  border-radius: 10px;
+  border: 1px solid var(--shinyvale-border);
+  background: var(--shinyvale-surface);
+  text-decoration: none !important;
+  color: var(--md-default-fg-color) !important;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.sv-card:hover {
+  border-color: var(--md-accent-fg-color);
+  transform: translateY(-2px);
+}
+.sv-card .sv-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.02rem;
+  margin-bottom: 0.3rem;
+  color: var(--md-primary-fg-color--light);
+}
+[data-md-color-scheme="shinyvale-dark"] .sv-card .sv-card-title {
+  color: var(--md-accent-fg-color);
+}
+.sv-card .sv-card-desc {
+  font-size: 0.87rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.5;
+}
+
+/* ---------- Quick-command strip ---------- */
+.sv-cmd-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 1.8rem;
+}
+.sv-cmd-strip code {
+  font-size: 0.82rem;
+  padding: 0.35em 0.7em;
+}
+
+/* ---------- Admonition tweaks: keep them calm, not neon ---------- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+/* ---------- Footer ---------- */
+.md-footer {
+  background: var(--md-primary-fg-color);
+}
