@@ -11,6 +11,12 @@ description: Messaging, teams, trading, and cosmetic commands on ShinyVale.
 |---|---|---|
 | `/msg <player> <message>` | `/w`, `/tell`, `/pm` | Send a private message |
 | `/r <message>` | `/reply` | Reply to your last private message |
+| `/ignore <player>` | — | Ignore or un-ignore a player |
+| `/mail read` | — | Read your mail |
+| `/mail send <player> <message>` | — | Send mail to an offline player |
+| `/me <action>` | — | Send an action message in chat |
+| `/nick <name>` | — | Set a nickname |
+| `/helpop <message>` | — | Send a message to online staff |
 | `/afk` | — | Toggle AFK status |
 
 ## Teams

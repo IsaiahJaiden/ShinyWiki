@@ -9,7 +9,7 @@ description: The basics — worlds, cross-platform support, and where to find he
 
 | | |
 |---|---|
-| **View distance** | Up to 32 chunks |
+| **View distance** | 32 chunks |
 | **World border** | 30,000,000 × 30,000,000 blocks |
 | **Gameplay philosophy** | Vanilla-style survival and redstone, with SMP features layered on top |
 

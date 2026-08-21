@@ -24,6 +24,6 @@ See the [Duels & PvP](../gameplay/duels.md) and [Bounties](../gameplay/bounties.
 
 | Command | Aliases | Description |
 |---|---|---|
-| `/bounty <player> <amount>` | `/bounties` | Place or add to a bounty |
+| `/bounty <player> <amount>` | — | Place or add to a bounty |
 | `/bounty <player>` | — | Check a player's current bounty |
 | `/bountytoggle` | — | Toggle bounty notifications |

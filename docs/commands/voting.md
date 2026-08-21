@@ -9,7 +9,7 @@ See [Voting Rewards](../features/voting.md) for what you actually earn.
 
 | Command | Aliases | Description |
 |---|---|---|
-| `/vote` | `/v` | See the vote site list and links |
+| `/vote` | — | See the vote site list and links |
 | `/votetotal` | `/vtotal` | Check your total vote count |
 | `/votenext` | `/vnext` | See when you can next vote |
 | `/votelast` | `/vlast` | See when you last voted |

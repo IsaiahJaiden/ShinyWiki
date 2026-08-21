@@ -9,7 +9,7 @@ ShinyVale isn't trying to reinvent Minecraft. The goal is simple: keep survival 
 
 ## 32-Chunk View Distance
 
-ShinyVale runs with a view distance of up to **32 chunks** — far beyond what most multiplayer servers offer.
+ShinyVale runs with a server view distance of **32 chunks** — far beyond what most multiplayer servers offer.
 
 <div class="sv-grid" markdown>
 
@@ -74,7 +74,7 @@ If you're the kind of player who builds automatic farms, item sorters, or large-
 
 | ShinyVale Feature | What It Means |
 |---|---|
-| Up to 32-chunk view distance | See much farther than on most SMP servers |
+| 32-chunk view distance | See much farther than on most SMP servers |
 | 30M × 30M world | Huge space for exploration and long-term bases |
 | Vanilla-style redstone | Technical builds behave the way you expect |
 | SMP enhancements | Claims, shops, duels, bounties, events, and more — layered on top, not instead of |
