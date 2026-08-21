@@ -109,6 +109,22 @@ Full guide: **[Teleportation & Travel](../gameplay/travel.md)**
 | `/ah` | Auction house |
 | `/ah sell <price>` | List the item in your hand |
 | `/convert` | Currency/shard conversion menu |
+| `/trade <player>` | Trade directly with another player |
+
+### Your own chest shops
+
+Shops are created by **clicking a chest**, not a command. These manage an existing shop — stand and look at it:
+
+| Command | Description |
+|---|---|
+| `/qs find <item>` | Find nearby shops selling an item |
+| `/qs price <price>` | Change your shop's price |
+| `/qs item` | Change what the shop trades |
+| `/qs amount <amount>` | Items per transaction |
+| `/qs name <name>` | Name your shop |
+| `/qs staff add\|del\|list [player]` | Manage who can run your shop |
+| `/qs currency <currency>` | Set the shop's currency |
+| `/qs about` | QuickShop version info |
 
 Full guides: **[Economy & Shops](../gameplay/economy.md)** · **[Auction House](../gameplay/auctions.md)**
 
@@ -168,6 +184,7 @@ Full guide: **[Social Commands](social.md)**
 | `/time` | World time |
 | `/seed` | The world seed |
 | `/itemdb` | ID/name of the item you're holding |
+| `/graves` | List your death graves and where they are |
 | `/ping` | Your connection latency |
 | `/stats` | Your player stats |
 | `/leaderboard` | Server leaderboards |
@@ -222,6 +239,7 @@ Full guide: **[Voting Rewards](../features/voting.md)**
 | `/spin` | Spin |
 | `/crawl` | Crawl |
 | `/skin` | Change or restore your skin |
+| `/customdiscs` | Create your own custom music discs |
 | `/suicide` | Kill your own character |
 
 ---

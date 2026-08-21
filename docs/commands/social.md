@@ -28,7 +28,19 @@ description: Messaging, teams, trading, and cosmetic commands on ShinyVale.
 
 ## Trading
 
-Trade directly with another player, item for item, with a confirmation screen on both sides before anything changes hands — no command needed, this is initiated in-world.
+```
+/trade <player>
+```
+
+Alias: `/axtrade`. Sends a direct trade request. Both players get a confirmation screen, and nothing changes hands until you both confirm. Requests expire after about a minute, and you need to be reasonably close to each other.
+
+## Music discs
+
+```
+/customdiscs
+```
+
+Create your own custom music discs. Run it on its own to see the available options.
 
 ## Cosmetic poses
 

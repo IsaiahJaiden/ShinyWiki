@@ -23,6 +23,7 @@ description: Everyday utility commands on ShinyVale — info, stats, homes, spaw
 | `/time` | — | Check the world time |
 | `/seed` | — | Show the world seed |
 | `/itemdb` | — | Look up the ID/name of the item you're holding |
+| `/graves` | `/grave`, `/axgraves` | List your death graves and where they are |
 | `/suicide` | — | Kill your own character |
 
 ## Settings & toggles
