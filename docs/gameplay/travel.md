@@ -47,13 +47,26 @@ Want to visit (or create) a player-made destination instead of an official one? 
 /home
 ```
 
-Opens your homes menu — everything about your homes is managed from here, not typed commands:
+Opens your homes menu — everything about your homes is managed from here, not typed commands. Homes can be set anywhere you like, except spawn and the AFK area.
 
-- **Setting a home:** click an empty grey bed to set a home at your current location.
-- **Teleporting:** click an existing home's bed to warp there.
-- **Deleting a home:** right-click the dye icon underneath that home's bed.
+<div class="sv-grid" markdown>
 
-Homes can be set anywhere you like, except spawn and the AFK area.
+<div class="sv-card" markdown>
+<span class="sv-card-title">:material-bed-empty: Setting a Home</span>
+<span class="sv-card-desc">Click an empty grey bed in the menu to set a home at your current location.</span>
+</div>
+
+<div class="sv-card" markdown>
+<span class="sv-card-title">:material-bed: Teleporting to a Home</span>
+<span class="sv-card-desc">Click an existing home's bed to warp there.</span>
+</div>
+
+<div class="sv-card" markdown>
+<span class="sv-card-title">:material-delete: Deleting a Home</span>
+<span class="sv-card-desc">Each home has a dye item sitting just underneath its bed in the menu — <strong>right-click that dye</strong> to delete the home. Left-clicking the bed itself teleports you instead, so make sure you're clicking the dye, not the bed.</span>
+</div>
+
+</div>
 
 ## Requesting to teleport to another player
 
