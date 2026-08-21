@@ -103,6 +103,7 @@ Full guide: **[Teleportation & Travel](../gameplay/travel.md)**
 | `/toggleworth` | Toggle the worth display |
 | `/order` | Bulk sell-order board |
 | `/bal` · `/balance` | Check your balance |
+| `/shards` | Check your shard balance |
 | `/baltop` | Richest players |
 | `/pay <player> <amount>` | Pay a player |
 | `/paytoggle` | Toggle receiving payments |
@@ -165,6 +166,8 @@ Full guides: **[Duels & PvP](../gameplay/duels.md)** · **[Bounties](../gameplay
 | `/teams` · `/team` | Teams menu |
 | `/teamtoggle` | Toggle a team setting |
 | `/discord` | Get the Discord invite |
+| `/link <code>` | Link your account to Discord |
+| `/unlink` | Unlink your Discord account |
 
 Full guide: **[Social Commands](social.md)**
 

@@ -62,8 +62,17 @@ Opens the leaderboard menu — balance, shards, playtime, deaths, blocks broken/
 | `/media` | Media/creator rank info |
 | `/convert` | Currency/shard conversion menu |
 | `/billford` | Billford's rotating daily trades |
-| `/discord` | Get the Discord invite link |
 | `/calendar` | Claim today's calendar reward — see [Calendar & Rewards](../features/calendar.md) |
+
+## Currency & account
+
+| Command | Description |
+|---|---|
+| `/shards` | Check your shard balance |
+| `/link <code>` | Link your Minecraft account to Discord |
+| `/unlink` | Unlink your Discord account |
+| `/discord` | Get the Discord invite link |
+| `/store` · `/buy` | How to support the server |
 
 ## Spawners
 
