@@ -1,32 +1,24 @@
 ---
 title: AFK
-description: Marking yourself away, and the dedicated AFK area.
+description: Getting to the AFK zone and what happens while you're there.
 ---
 
 # AFK
-
-Two different things share the "AFK" name on ShinyVale — they do different jobs, and you can use either or both.
-
-## Marking yourself AFK
 
 ```
 /afk
 ```
 
-Aliases: `/away`, `/eafk`. Flags you as away-from-keyboard wherever you're standing. Other players can see you're idle, and you'll come out of AFK automatically as soon as you move or type. This does **not** teleport you anywhere.
-
-## The AFK area
+Opens a menu with an option to teleport you straight to ShinyVale's dedicated AFK zone — a safe area built for idling, separate from the main world.
 
 ```
 /warp afk
 ```
 
-A dedicated, safe zone built for idling — separate from the main world. Idling there earns passive rewards over time just for being present, which standing AFK in your base won't do.
+Gets you to the same place directly, no menu.
 
-!!! tip "Which should I use?"
-    Stepping away for a minute? `/afk` is enough. Going idle for a while and want it to count for something? Head to `/warp afk` instead.
+Idling in the AFK zone earns passive rewards over time just for being present — which doesn't happen if you idle in your base or anywhere else in the world.
 
 ## Related pages
 
 - [Teleportation & Travel](travel.md)
-- [Social Commands](../commands/social.md)

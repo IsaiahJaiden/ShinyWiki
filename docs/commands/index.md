@@ -87,8 +87,9 @@ Aliases: `/territory` · `/territories` · `/unterritory`. Full guide: **[Claims
 | `/tptoggle` | Block/allow incoming requests |
 | `/pw` | Browse player warps |
 | `/pw create <name>` | Create your own player warp |
+| `/afk` | Open a menu to teleport to the AFK zone |
 
-Full guide: **[Teleportation & Travel](../gameplay/travel.md)**
+Full guide: **[Teleportation & Travel](../gameplay/travel.md)** · **[AFK](../gameplay/afk.md)**
 
 ---
 
@@ -162,7 +163,6 @@ Full guides: **[Duels & PvP](../gameplay/duels.md)** · **[Bounties](../gameplay
 | `/nick <name>` | Set a nickname |
 | `/ignore <player>` | Ignore or un-ignore someone |
 | `/helpop <msg>` | Message online staff |
-| `/afk` | Mark yourself away from keyboard |
 | `/teams` · `/team` | Teams menu |
 | `/teamtoggle` | Toggle a team setting |
 | `/discord` | Get the Discord invite |

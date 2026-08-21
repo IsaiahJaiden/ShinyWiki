@@ -17,7 +17,6 @@ description: Messaging, teams, trading, and cosmetic commands on ShinyVale.
 | `/me <action>` | — | Send an action message in chat |
 | `/nick <name>` | — | Set a nickname |
 | `/helpop <message>` | — | Send a message to online staff |
-| `/afk` | — | Toggle AFK status |
 
 ## Teams
 

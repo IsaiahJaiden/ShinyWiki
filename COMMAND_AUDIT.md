@@ -47,7 +47,7 @@ Evidence keys: `PY` = plugin's own `plugin.yml`/`paper-plugin.yml` · `CFG` = ac
 | `/msg` | `/w` `/tell` `/pm` | EssentialsX | 2.22.0 | PUBLIC | LP `essentials.msg`; ESS |
 | `/r` | `/reply` | EssentialsX | 2.22.0 | PUBLIC | LP `essentials.reply`; ESS |
 | `/mail`, `/me`, `/nick`, `/ignore`, `/helpop` | — | EssentialsX | 2.22.0 | PUBLIC | ESS whitelist |
-| `/afk` | `/eafk` `/away` | EssentialsX | 2.22.0 | PUBLIC | PY aliases; LP `essentials.afk` |
+| `/afk` | — | DeluxeMenus (`afk.yml`) | 1.14.1-DEV | PUBLIC | **Owner-confirmed in-game (2026-08-21):** opens a GUI with a teleport-to-AFK-zone option, not an away-from-keyboard toggle. Corrects the earlier PY/LP-based inference that EssentialsX won this collision — it doesn't. EssentialsX's `essentials.afk` grant is still live in LuckPerms but is not the command that actually fires. |
 | `/list`, `/seen`, `/realname`, `/near`, `/getpos`, `/depth`, `/compass`, `/time`, `/itemdb`, `/suicide`, `/motd` | various | EssentialsX | 2.22.0 | PUBLIC | ESS whitelist |
 | `/seed` | — | Worlds | 3.10.5 | PUBLIC | LP grants **both** `minecraft.command.seed` and `worlds.command.seed` |
 | `/sit` `/lay` `/layback` `/bellyflop` `/spin` `/crawl` | `/gsit` `/glay` etc. | GSit | 3.1.0 | PUBLIC | PY aliases; LP `gsit.*` |

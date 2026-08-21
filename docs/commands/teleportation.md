@@ -26,6 +26,7 @@ See the [Teleportation & Travel](../gameplay/travel.md) guide for a full walkthr
 | `/tpauto` | — | Auto-accept incoming teleport requests |
 | `/tptoggle` | — | Toggle whether you accept incoming teleport requests |
 | `/back` | `/return` | Return to where you were before your last teleport or death |
+| `/afk` | — | Open a menu to teleport to the AFK zone — see [AFK](../gameplay/afk.md) |
 
 ### Server warp destinations
 
