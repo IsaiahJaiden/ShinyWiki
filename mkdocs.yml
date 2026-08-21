@@ -84,6 +84,7 @@ plugins:
 nav:
   - Welcome:
     - Home: index.md
+    - Why ShinyVale: getting-started/why-shinyvale.md
     - Getting Started: getting-started/index.md
     - Server Information: getting-started/server-info.md
   - Gameplay:

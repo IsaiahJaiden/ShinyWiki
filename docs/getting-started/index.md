@@ -7,6 +7,9 @@ description: New to ShinyVale? Here's exactly what to do in your first few minut
 
 Welcome to ShinyVale! Here's the fastest path from "just joined" to actually playing.
 
+!!! tip "New here?"
+    Curious what actually makes ShinyVale different before you dive in? See [Why ShinyVale](why-shinyvale.md) — the short version: a massive world, a long view distance, and survival that still feels like vanilla Minecraft.
+
 ## 1. Accept the resource pack
 
 You'll be prompted to download ShinyVale's resource pack the moment you connect — accept it. It's required to play properly. Trouble with it? See [Resource Pack](../features/resource-pack.md).

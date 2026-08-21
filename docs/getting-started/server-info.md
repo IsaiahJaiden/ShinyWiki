@@ -5,6 +5,16 @@ description: The basics — worlds, cross-platform support, and where to find he
 
 # Server Information
 
+## At a glance
+
+| | |
+|---|---|
+| **View distance** | Up to 32 chunks |
+| **World border** | 30,000,000 × 30,000,000 blocks |
+| **Gameplay philosophy** | Vanilla-style survival and redstone, with SMP features layered on top |
+
+See [Why ShinyVale](why-shinyvale.md) for what these actually mean for you as a player.
+
 ## Worlds
 
 | World | What it's for |
