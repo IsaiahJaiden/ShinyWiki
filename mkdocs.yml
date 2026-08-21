@@ -1,0 +1,120 @@
+site_name: ShinyVale Wiki
+site_description: The official player wiki for ShinyVale SMP — commands, claims, economy, duels, rules, and everything else you need to thrive.
+site_author: ShinyVale SMP
+# TODO once hosted: set to the real published URL, e.g. https://wiki.shinyvale.net/
+site_url: ""
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/discord
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: shinyvale-light
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: shinyvale-dark
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+    - content.tabs.link
+    - announce.dismiss
+
+extra_css:
+  - stylesheets/shinyvale.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/G74PkPv2XQ
+      name: ShinyVale Discord
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+
+plugins:
+  - search:
+      lang: en
+
+nav:
+  - Welcome:
+    - Home: index.md
+    - Getting Started: getting-started/index.md
+    - Server Information: getting-started/server-info.md
+  - Gameplay:
+    - Claims: gameplay/claims.md
+    - Economy & Shops: gameplay/economy.md
+    - Auction House: gameplay/auctions.md
+    - Player Warps: gameplay/player-warps.md
+    - Teleportation & Travel: gameplay/travel.md
+    - Duels & PvP: gameplay/duels.md
+    - Bounties: gameplay/bounties.md
+    - Spawners: gameplay/spawners.md
+    - AFK Area: gameplay/afk.md
+  - Commands:
+    - Overview: commands/index.md
+    - General & Utility: commands/general.md
+    - Teleportation & Travel: commands/teleportation.md
+    - Claims: commands/claims.md
+    - Economy & Shops: commands/economy.md
+    - Duels & Bounties: commands/duels-bounties.md
+    - Voting: commands/voting.md
+    - Social: commands/social.md
+  - Features:
+    - Calendar & Rewards: features/calendar.md
+    - Crates & Keys: features/crates.md
+    - Voting Rewards: features/voting.md
+    - Resource Pack: features/resource-pack.md
+    - Bedrock & Crossplay: features/bedrock.md
+  - Rules:
+    - Server Rules: rules/index.md
+  - Help:
+    - FAQ: help/faq.md
+    - Common Problems: help/common-problems.md
+    - Reporting a Player: help/reporting.md
+    - Contact Staff: help/contact.md
