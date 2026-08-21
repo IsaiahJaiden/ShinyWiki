@@ -219,6 +219,128 @@ body, .md-typeset {
   border-width: 1px;
 }
 
+/* ---------- Dark-mode text-contrast safety net ----------
+   Explicit, hardcoded colors (not just custom properties) for every element
+   flagged as low-contrast, so the fix doesn't depend on exactly how far
+   Material's own compiled CSS lets our variables cascade. */
+
+/* Headings everywhere */
+[data-md-color-scheme="shinyvale-dark"] .md-typeset h1,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset h2,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset h3,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset h4,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset h5,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset h6 {
+  color: #F3F8FC !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-typeset p,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset li,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset {
+  color: #D7E3ED;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-typeset a {
+  color: #56C6FF;
+}
+
+/* Hero */
+[data-md-color-scheme="shinyvale-dark"] .sv-hero h1 {
+  color: #FFFFFF !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .sv-hero p.sv-tagline {
+  color: #C9D8E4 !important;
+}
+
+/* Buttons — both the filled primary and the outlined secondary style */
+[data-md-color-scheme="shinyvale-dark"] .md-typeset .md-button {
+  color: #EAF6FF !important;
+  border-color: #5C8CAA !important;
+  background-color: transparent;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-typeset .md-button:hover,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset .md-button:focus-visible {
+  color: #08131C !important;
+  background-color: #56C6FF !important;
+  border-color: #56C6FF !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-typeset .md-button--primary {
+  color: #08131C !important;
+  background-color: #56C6FF !important;
+  border-color: #56C6FF !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-typeset .md-button--primary:hover,
+[data-md-color-scheme="shinyvale-dark"] .md-typeset .md-button--primary:focus-visible {
+  background-color: #8AD4FF !important;
+  border-color: #8AD4FF !important;
+  color: #08131C !important;
+}
+
+/* Cards */
+[data-md-color-scheme="shinyvale-dark"] .sv-card .sv-card-title {
+  color: #56C6FF !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .sv-card .sv-card-desc {
+  color: #B9C8D6 !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .sv-card {
+  color: #D7E3ED !important;
+}
+
+/* Left sidebar + right-side "On this page" TOC (both use .md-nav) */
+[data-md-color-scheme="shinyvale-dark"] .md-nav__title {
+  color: #EAF2F8 !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-nav__link {
+  color: #A9BCCC !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-nav__link:hover,
+[data-md-color-scheme="shinyvale-dark"] .md-nav__link:focus {
+  color: #FFFFFF !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-nav__link--active,
+[data-md-color-scheme="shinyvale-dark"] .md-nav__item--active > .md-nav__link,
+[data-md-color-scheme="shinyvale-dark"] .md-nav__link[aria-current="page"] {
+  color: #56C6FF !important;
+  font-weight: 600;
+}
+
+/* Top tab bar: Welcome / Gameplay / Commands / Features / Rules / Help */
+[data-md-color-scheme="shinyvale-dark"] .md-tabs__link {
+  color: #C3D3E0 !important;
+  opacity: 1 !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-tabs__link:hover,
+[data-md-color-scheme="shinyvale-dark"] .md-tabs__link--active {
+  color: #FFFFFF !important;
+}
+
+/* Header title/icons */
+[data-md-color-scheme="shinyvale-dark"] .md-header__title,
+[data-md-color-scheme="shinyvale-dark"] .md-header__button {
+  color: #EAF6FF !important;
+}
+
+/* Search box + placeholder */
+[data-md-color-scheme="shinyvale-dark"] .md-search__input {
+  color: #EAF2F8 !important;
+  background-color: #16222E !important;
+}
+[data-md-color-scheme="shinyvale-dark"] .md-search__input::placeholder {
+  color: #8497A8 !important;
+  opacity: 1 !important;
+}
+
+/* Same safety net for light mode, so nothing regresses there either */
+[data-md-color-scheme="shinyvale-light"] .sv-hero h1 {
+  color: #0B1B28 !important;
+}
+[data-md-color-scheme="shinyvale-light"] .md-typeset .md-button--primary {
+  color: #FFFFFF !important;
+}
+[data-md-color-scheme="shinyvale-light"] .md-typeset .md-button {
+  color: #0B5D8C !important;
+  border-color: #0B5D8C !important;
+}
+
 /* ---------- Footer ---------- */
 /* Explicit per-scheme colors, not tied to --md-primary-fg-color (that token now has
    to stay a bright, visible blue for button/link legibility — see the dark scheme
