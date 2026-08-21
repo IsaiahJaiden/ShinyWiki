@@ -143,8 +143,19 @@ body, .md-typeset {
   height: auto;
   filter: drop-shadow(0 6px 18px rgba(14,127,191,0.25));
 }
+.sv-hero p.sv-tagline-primary {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  max-width: 42rem;
+  margin: 0.2rem 0 0;
+  letter-spacing: -0.01em;
+}
+[data-md-color-scheme="shinyvale-dark"] .sv-hero p.sv-tagline-primary {
+  color: #F3F8FC !important;
+}
 .sv-hero p.sv-tagline {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 500;
   color: var(--md-default-fg-color--light);
   max-width: 46rem;
