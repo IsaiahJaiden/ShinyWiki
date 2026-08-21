@@ -157,7 +157,7 @@ List a claim for another player to buy — cancel the listing any time with `/cl
 `/claim map` shows a nearby claim overview, `/claim list` shows all your claims, and `/claim see <player>` checks whose claim you're standing in.
 
 !!! tip "Claims will expire if abandoned"
-    If nobody logs into a claim's owner account for an extended period, that claim is automatically freed up — no need to manually clean up an old claim if you're moving on, but don't count on an inactive claim staying reserved forever either.
+    If a claim's owner doesn't log in for **2 weeks**, that claim is automatically freed up — no need to manually clean up an old claim if you're moving on, but don't count on an inactive claim staying reserved past that point either.
 
 ## Claim rules
 
