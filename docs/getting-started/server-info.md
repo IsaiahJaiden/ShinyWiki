@@ -10,9 +10,9 @@ description: The basics — worlds, cross-platform support, and where to find he
 | World | What it's for |
 |---|---|
 | **Spawn** | The hub — shops, warps, crates, duels, and the auction house |
-| **Donut** | The main survival overworld |
-| **Donut (Nether)** | The nether dimension |
-| **Donut (The End)** | The end dimension |
+| **ShinyWorld** | The main survival overworld |
+| **ShinyNether** | The nether dimension |
+| **ShinyEnd** | The end dimension |
 | **AfkZone** | A dedicated, safe area for going AFK |
 
 ## Cross-platform play
