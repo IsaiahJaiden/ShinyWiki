@@ -230,6 +230,38 @@ body, .md-typeset {
   border-width: 1px;
 }
 
+/* Admonitions/callouts (!!! tip, !!! info, !!! warning, etc.) keep Material's own
+   light, type-tinted background in BOTH themes — that background never became dark
+   mode-aware. The broad dark-mode text rule above (.md-typeset p/li/etc.) doesn't
+   know that, so it was putting light-on-light-callout text. Force dark text back on
+   top of these specific light-background boxes, regardless of page theme. Higher
+   selector specificity than the broad rule above, so this wins without needing
+   source-order luck. */
+.md-typeset .admonition,
+.md-typeset details {
+  color: #16222E;
+}
+.md-typeset .admonition p,
+.md-typeset .admonition li,
+.md-typeset details p,
+.md-typeset details li {
+  color: #16222E !important;
+}
+.md-typeset .admonition-title,
+.md-typeset summary {
+  color: #0F1922 !important;
+  font-weight: 700;
+}
+.md-typeset .admonition a,
+.md-typeset details a {
+  color: #0B5D8C !important;
+  text-decoration: underline;
+}
+.md-typeset .admonition a:hover,
+.md-typeset details a:hover {
+  color: #0E7FBF !important;
+}
+
 /* ---------- Dark-mode text-contrast safety net ----------
    Explicit, hardcoded colors (not just custom properties) for every element
    flagged as low-contrast, so the fix doesn't depend on exactly how far
