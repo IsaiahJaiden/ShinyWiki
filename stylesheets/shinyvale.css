@@ -28,9 +28,13 @@
 
 /* ---------- Dark scheme: "shinyvale-dark" ---------- */
 [data-md-color-scheme="shinyvale-dark"] {
-  --md-primary-fg-color:        #0E1B26;
-  --md-primary-fg-color--light: #17293A;
-  --md-primary-fg-color--dark:  #0A141C;
+  /* Note: --md-primary-fg-color drives more than the header — Material also uses it
+     for outline-button text/borders, active nav/TOC highlights, etc. It must stay a
+     bright, visible color here. The actual dark header/tabs backgrounds are set
+     separately below with hardcoded hex values, so this doesn't affect those. */
+  --md-primary-fg-color:        #56C6FF;
+  --md-primary-fg-color--light: #8AD4FF;
+  --md-primary-fg-color--dark:  #2E9FDE;
   --md-primary-bg-color:        #E9F6FF;
   --md-accent-fg-color:         #56C6FF;
 
@@ -216,6 +220,13 @@ body, .md-typeset {
 }
 
 /* ---------- Footer ---------- */
-.md-footer {
-  background: var(--md-primary-fg-color);
+/* Explicit per-scheme colors, not tied to --md-primary-fg-color (that token now has
+   to stay a bright, visible blue for button/link legibility — see the dark scheme
+   block above). */
+[data-md-color-scheme="shinyvale-light"] .md-footer {
+  background: linear-gradient(135deg, #0B5D8C 0%, #0E7FBF 100%);
+}
+[data-md-color-scheme="shinyvale-dark"] .md-footer {
+  background: #0B1017;
+  border-top: 1px solid var(--shinyvale-border);
 }
