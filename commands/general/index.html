@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Everyday utility commands on ShinyVale — help, stats, spawners, enchanting, and more.">
+        <meta name="description" content="Everyday utility commands on ShinyVale — info, stats, homes, spawners, and more.">
       
       
         <meta name="author" content="ShinyVale SMP">
@@ -1035,6 +1035,61 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#everyday" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Everyday
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-toggles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings &amp; toggles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skins
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leaderboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leaderboards
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menus-guis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus &amp; GUIs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#spawners" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1050,17 +1105,6 @@
     <span class="md-ellipsis">
       
         Enchanting &amp; tinkering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#events" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Events
       
     </span>
   </a>
@@ -1747,6 +1791,61 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#everyday" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Everyday
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-toggles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Settings &amp; toggles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#skins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Skins
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leaderboards" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Leaderboards
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#menus-guis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Menus &amp; GUIs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#spawners" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1762,17 +1861,6 @@
     <span class="md-ellipsis">
       
         Enchanting &amp; tinkering
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#events" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Events
       
     </span>
   </a>
@@ -1797,6 +1885,7 @@
 
 
 <h1 id="general-utility-commands">General &amp; Utility Commands<a class="headerlink" href="#general-utility-commands" title="Permanent link">&para;</a></h1>
+<h2 id="everyday">Everyday<a class="headerlink" href="#everyday" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -1807,14 +1896,14 @@
 </thead>
 <tbody>
 <tr>
-<td><code>/guide</code>, <code>/help</code></td>
-<td>—</td>
-<td>Open the help menu</td>
-</tr>
-<tr>
 <td><code>/rules</code></td>
 <td>—</td>
 <td>Read the server rules</td>
+</tr>
+<tr>
+<td><code>/motd</code></td>
+<td>—</td>
+<td>Show the server's message of the day</td>
 </tr>
 <tr>
 <td><code>/ping</code></td>
@@ -1827,46 +1916,156 @@
 <td>View your player stats</td>
 </tr>
 <tr>
-<td><code>/skin</code></td>
+<td><code>/list</code></td>
 <td>—</td>
-<td>Change or restore your skin</td>
+<td>See who's online</td>
 </tr>
+<tr>
+<td><code>/seen &lt;player&gt;</code></td>
+<td>—</td>
+<td>Check when a player was last online</td>
+</tr>
+<tr>
+<td><code>/realname &lt;nickname&gt;</code></td>
+<td>—</td>
+<td>Look up the real username behind a nickname</td>
+</tr>
+<tr>
+<td><code>/near</code></td>
+<td>—</td>
+<td>List players near you</td>
+</tr>
+<tr>
+<td><code>/getpos</code></td>
+<td>—</td>
+<td>Show your exact coordinates</td>
+</tr>
+<tr>
+<td><code>/depth</code></td>
+<td>—</td>
+<td>Show your current depth relative to sea level</td>
+</tr>
+<tr>
+<td><code>/compass</code></td>
+<td>—</td>
+<td>Show the direction you're facing</td>
+</tr>
+<tr>
+<td><code>/time</code></td>
+<td>—</td>
+<td>Check the world time</td>
+</tr>
+<tr>
+<td><code>/seed</code></td>
+<td>—</td>
+<td>Show the world seed</td>
+</tr>
+<tr>
+<td><code>/itemdb</code></td>
+<td>—</td>
+<td>Look up the ID/name of the item you're holding</td>
+</tr>
+<tr>
+<td><code>/suicide</code></td>
+<td>—</td>
+<td>Kill your own character</td>
+</tr>
+</tbody>
+</table>
+<h2 id="settings-toggles">Settings &amp; toggles<a class="headerlink" href="#settings-toggles" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Aliases</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td><code>/settings</code></td>
 <td>—</td>
 <td>Open your personal settings menu</td>
 </tr>
 <tr>
-<td><code>/leaderboard</code></td>
-<td><code>/leaderboards</code></td>
-<td>Browse server leaderboards (balance, shards, playtime, and more)</td>
+<td><code>/nightvision</code></td>
+<td><code>/nv</code></td>
+<td>Toggle night vision</td>
 </tr>
 <tr>
-<td><code>/portal</code></td>
-<td><code>/portals</code>, <code>/ap</code></td>
-<td>Use a server portal destination</td>
+<td><code>/phantom</code></td>
+<td>—</td>
+<td>Toggle phantom spawning for yourself</td>
+</tr>
+<tr>
+<td><code>/togglespawnmessages</code></td>
+<td>—</td>
+<td>Turn ShinyVale's spawn messages on or off</td>
+</tr>
+<tr>
+<td><code>/fastercrystals &lt;on\|off\|toggle&gt;</code></td>
+<td>—</td>
+<td>Toggle the faster end-crystal placement behavior</td>
+</tr>
+<tr>
+<td><code>/tab scoreboard</code></td>
+<td>—</td>
+<td>Toggle your sidebar scoreboard on or off</td>
+</tr>
+<tr>
+<td><code>/ignore &lt;player&gt;</code></td>
+<td>—</td>
+<td>Ignore (or un-ignore) another player</td>
+</tr>
+</tbody>
+</table>
+<h2 id="skins">Skins<a class="headerlink" href="#skins" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/skin
+</code></pre></div>
+<p>Change or restore your player skin. Run it on its own to see the available options.</p>
+<h2 id="leaderboards">Leaderboards<a class="headerlink" href="#leaderboards" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>/leaderboard
+</code></pre></div>
+<p>Opens the leaderboard menu — balance, shards, playtime, deaths, blocks broken/placed, mobs killed, shop spending, and bounties.</p>
+<h2 id="menus-guis">Menus &amp; GUIs<a class="headerlink" href="#menus-guis" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/guide</code></td>
+<td>Open the help menu</td>
 </tr>
 <tr>
 <td><code>/media</code></td>
-<td>—</td>
-<td>Media/creator info menu</td>
+<td>Media/creator rank info</td>
+</tr>
+<tr>
+<td><code>/convert</code></td>
+<td>Currency/shard conversion menu</td>
+</tr>
+<tr>
+<td><code>/billford</code></td>
+<td>Billford's rotating daily trades</td>
 </tr>
 <tr>
 <td><code>/discord</code></td>
-<td>—</td>
 <td>Get the Discord invite link</td>
 </tr>
 <tr>
 <td><code>/calendar</code></td>
-<td><code>/axcalendar</code></td>
 <td>Claim today's calendar reward — see <a href="../../features/calendar/">Calendar &amp; Rewards</a></td>
 </tr>
 </tbody>
 </table>
 <h2 id="spawners">Spawners<a class="headerlink" href="#spawners" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/ss prices
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>/ss prices
 </code></pre></div>
-<p>Aliases: <code>/smartspawner</code>, <code>/spawner</code>. Check what your spawner's drops are worth. See the full <a href="../../gameplay/spawners/">Spawners guide</a>.</p>
+<p>Aliases: <code>/smartspawner</code>, <code>/spawner</code>. Check what your spawner's drops sell for. See the full <a href="../../gameplay/spawners/">Spawners guide</a>.</p>
 <h2 id="enchanting-tinkering">Enchanting &amp; tinkering<a class="headerlink" href="#enchanting-tinkering" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -1879,7 +2078,7 @@
 <tbody>
 <tr>
 <td><code>/enchanter</code></td>
-<td><code>/ce</code></td>
+<td><code>/ce</code>, <code>/crazyenchantments</code></td>
 <td>Open the enchanter menu</td>
 </tr>
 <tr>
@@ -1888,16 +2087,12 @@
 <td>Open the tinkerer menu</td>
 </tr>
 <tr>
-<td><code>/gkits</code></td>
-<td><code>/gkitz</code>, <code>/gkit</code></td>
+<td><code>/gkit</code></td>
+<td><code>/gkitz</code>, <code>/gkits</code></td>
 <td>Browse gkits</td>
 </tr>
 </tbody>
 </table>
-<h2 id="events">Events<a class="headerlink" href="#events" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>/envoys
-</code></pre></div>
-<p>Alias: <code>/envoy</code>. Check the status of scheduled envoy drops and toggle whether you get notified when one happens.</p>
 
 
 
