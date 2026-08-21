@@ -25,7 +25,7 @@ Run it with no arguments to claim a default square area around you, or give it a
 Claiming is instant — no confirmation screen, and by default it's completely free.
 
 <div class="sv-cmd-strip" markdown>
-`/claim` `/claims` `/unclaim` `/claim tp <name>` `/claim setname`
+`/claim` `/claims` `/unclaim` `/claim tp <name>` `/claim setname` `/claim merge` `/claim settings`
 </div>
 
 ## Managing your claim
@@ -44,7 +44,7 @@ Claiming is instant — no confirmation screen, and by default it's completely f
 
 <div class="sv-card" markdown>
 <span class="sv-card-title">:material-cog: Claim Settings</span>
-<span class="sv-card-desc"><code>/claim settings</code> opens a menu of toggles for your claim — PvP, mob spawning, explosions, redstone, fly, item pickup, and more — set separately for members and visitors.</span>
+<span class="sv-card-desc"><code>/claim settings</code> opens a full menu of toggles for your claim — see <a href="#claim-settings">Claim settings</a> below for the complete list.</span>
 </div>
 
 <div class="sv-card" markdown>
@@ -56,8 +56,91 @@ Claiming is instant — no confirmation screen, and by default it's completely f
 
 ## Expanding and merging
 
-- `/claim addchunk` — add another chunk to an existing claim
-- `/claim merge <claim-1> <claim-2>` — combine two of your claims into one
+If your base grows past your original claim, you don't have to live with two separate, disconnected claims forever.
+
+- `/claim addchunk <claim-name>` — add another chunk onto an existing claim
+- `/claim merge <claim-1> <claim-2>` — combine two of your claims into a single claim
+
+Merging is the better option any time you've claimed adjacent plots that really belong to the same base. Once merged, the whole area behaves as **one claim** — one name, one set of members, one settings menu — instead of you having to manage two (or more) claims separately every time you want to change something.
+
+!!! warning "Merge first, then lock down settings"
+    If you're planning to merge claims, do the merge **before** you configure settings like disabling teleportation. Changing settings — especially turning off teleport access — on a claim before it's been merged can cause problems once the claims are combined. Get the merge done first, confirm everything looks right, and only then start adjusting toggles like GuiTeleport.
+
+## Claim settings
+
+```
+/claim settings
+```
+
+Opens a menu of toggles that control exactly what is and isn't allowed on your claim. Most settings are configured **separately for three groups**, so you can be more permissive with people you trust than with strangers:
+
+- **Members** — players you've added with `/claim add`
+- **Visitors** — anyone else who walks onto your claim
+- **Natural** — environmental behavior that isn't tied to a specific player at all (explosions, fire, mob spawning, and so on)
+
+There's also an "apply to all claims" option in the menu, so you don't have to repeat the same setup on every claim you own one at a time.
+
+### Building & breaking
+
+| Setting | Controls |
+|---|---|
+| Build | Placing blocks |
+| Destroy | Breaking blocks |
+| Special Blocks | Breaking sensitive blocks like spawners |
+
+### Interacting
+
+| Setting | Controls |
+|---|---|
+| Buttons | Using buttons |
+| Levers | Using levers |
+| Plates | Stepping on pressure plates |
+| Doors | Opening doors |
+| Trapdoors | Opening trapdoors |
+| Fence Gates | Opening fence gates |
+| Tripwires | Triggering tripwires |
+| Repeaters/Comparators | Adjusting redstone repeaters and comparators |
+| Bells | Ringing bells |
+| Interact Blocks | Using containers and other interactive blocks (furnaces, chests, and similar) |
+| Entities | Interacting with entities (leashing, feeding, etc.) |
+
+### Items
+
+| Setting | Controls |
+|---|---|
+| Items Pickup | Picking up dropped items |
+| Items Drop | Dropping items |
+
+### Movement & access
+
+| Setting | Controls |
+|---|---|
+| Enter | Whether the group can enter the claim at all |
+| Teleportations | Teleporting directly into the claim |
+| GuiTeleport | Whether the claim shows up as a teleport option in the `/claims` menu — see the merge warning above before touching this one |
+| Fly | Flying while inside the claim |
+| Elytra | Elytra gliding inside the claim |
+| Portals | Using nether/end portals inside the claim |
+| Windcharges | Using wind charges inside the claim |
+
+### Combat & mobs
+
+| Setting | Controls |
+|---|---|
+| Pvp | Player vs. player combat |
+| Monsters | Hostile mob spawning |
+| Damages | Taking damage in general |
+
+### Environment (Natural)
+
+| Setting | Controls |
+|---|---|
+| Explosions | Explosion damage/block breakage |
+| Liquids | Water and lava flow |
+| Redstone | Redstone circuits running |
+| Frostwalker | Frost Walker boot effect |
+| Firespread | Fire spreading |
+| Weather | Weather effects inside the claim |
 
 ## Selling a claim
 
